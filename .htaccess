@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^http://localhost/alecAngular/$ [NC]
+RewriteRule ^(.*)$ http://localhost/alecAngular/$1 [R=301,L]
+RewriteCond %{THE_REQUEST} ^.*/index.html
+RewriteRule ^(.*)index.html$ http://localhost/alecAngular/$1 [R=301,L]

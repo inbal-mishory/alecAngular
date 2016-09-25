@@ -1,0 +1,31 @@
+@import 'https://fonts.googleapis.com/css?family=Alef';
+body {
+    direction: rtl;
+    font-size:18px;
+    font-family: 'Alef', serif;
+    margin-top:14vh;
+}
+.navbar {
+    border-radius: 0;
+    height: 12vh;
+    position: fixed;
+    top:0;
+    width:100vw;
+}
+.navbar-brand {
+    font-size: 2.6em;
+    font-family: 'Open Sans Hebrew', serif;
+}
+a.navbar-brand div {
+    display: inline-block;
+}
+a.navbar-brand::first-letter,  a.navbar-brand div::first-letter{
+    font-size:120%;
+}
+.container .well{
+    line-height: 1.5em;
+}
+.item img {
+    margin: 0 auto;
+    max-height: 400px;
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "catalog": "Eli Shamir",
+    "id": 1,
+    "title":"אלי שמיר",
+    "url": "images/catalogs/shamir-coverHeb.jpg"
+  },
+  {
+    "catalog": "Shmuel Bonneh",
+    "id": 2,
+    "title":"שמואל בונה",
+    "url": "images/catalogs/homelandOfThePommagranetCover.jpg"
+  }
+]

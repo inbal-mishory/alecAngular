@@ -1,0 +1,56 @@
+[
+  {
+    "section": "about",
+    "id": 1,
+    "title": "אודות",
+    "url": "#/about"
+  },
+  {
+    "section": "publications",
+    "title": "פרסומים",
+    "subSections": [
+      {
+        "subsection":"catalogs",
+        "id": 2.1,
+        "title": "קטלוגים",
+        "url": "#/catalogs",
+        "items": [
+          {
+            "item": "catalog1",
+            "id":2.11,
+            "title":"Shmuel Bonne pictures"
+          },
+          {
+            "item":"catalog2",
+            "id":2.12,
+            "title":"They wage war over there, here they plant and dance"
+          }
+        ]
+      },
+      {
+      "subsection":"books",
+        "id": 2.2,
+        "title": "ספרים",
+        "url": "#/books"
+      },
+      {
+      "subsection":"magazines",
+        "id": 2.3,
+        "title": "מאמרים",
+        "url": "#/articles"
+      },
+      {
+        "subsection":"reviews",
+        "id": 2.4,
+        "title": "בקורות בעיתון",
+        "url": "#/reviews"
+      }
+    ]
+  },
+  {
+    "section": "Writeup",
+    "id": 3,
+    "title": "כתבו עליי",
+    "url": "#/writeup"
+  }
+]
