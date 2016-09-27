@@ -13,19 +13,7 @@
         "subsection":"catalogs",
         "id": 2.1,
         "title": "קטלוגים",
-        "url": "#/catalogs",
-        "items": [
-          {
-            "item": "catalog1",
-            "id":2.11,
-            "title":"Shmuel Bonne pictures"
-          },
-          {
-            "item":"catalog2",
-            "id":2.12,
-            "title":"They wage war over there, here they plant and dance"
-          }
-        ]
+        "url": "#/catalogs"
       },
       {
       "subsection":"books",

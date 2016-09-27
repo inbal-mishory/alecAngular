@@ -27,25 +27,40 @@ var app = angular.module('website', ['ngRoute'])
     .controller('MainController', function($scope, $route) {
         $scope.$route = $route;
     })
-    .controller('HomeController', function($scope) {
+    .controller('HomeController', function($scope, $http) {
         $scope.title = 'עמוד הבית';
     })
     .controller('AboutController', function($scope) {
         $scope.title = 'אודות';
     })
-    .controller('CatalogsController', function($scope) {
+    .controller('CatalogsController', function($scope, $http) {
         $scope.title = 'פרסומים > קטלוגים';
+        $http.get('data/catalogs.json').success(function(data, status, headers, config) {
+            $scope.catalogs = data;
+
+        }).
+            error(function(data, status, headers, config) {
+                // log error
+                console.log($http);
+            });
     })
-    .controller('ArticlesController', function($scope) {
+    .controller('ArticlesController', function($scope, $http) {
         $scope.title = 'פרסומים > מאמרים';
     })
-    .controller('BooksController', function($scope) {
+    .controller('BooksController', function($scope, $http) {
         $scope.title = 'פרסומים > ספרים';
+        $http.get('data/books.json').success(function(data, status, headers, config) {
+            $scope.books = data;
+
+        }).
+            error(function(data, status, headers, config) {
+                // log error
+            });
     })
-    .controller('ReviewsController', function($scope) {
+    .controller('ReviewsController', function($scope, $http) {
         $scope.title = 'פרסומים > בקורות בעתון';
     })
-    .controller('WriteupController', function($scope) {
+    .controller('WriteupController', function($scope, $http) {
         $scope.title = 'כתבו עליי';
     })
     .controller('SectionController', function($scope, $http) {
@@ -57,15 +72,4 @@ var app = angular.module('website', ['ngRoute'])
             error(function(data, status, headers, config) {
                 // log error
             });
-    })
-    .controller('CatalogsController', function($scope) {
-        $http.get('data/catalogs.json').
-            success(function(data, status, headers, config) {
-                $scope.catalogs = data;
-
-            }).
-            error(function(data, status, headers, config) {
-                // log error
-            });
     });
-

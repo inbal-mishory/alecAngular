@@ -1,1 +1,15 @@
 <h2>{{title}}</h2>
+<div ng-controller="BooksController">
+    <ul class="booksList">
+        <li ng-repeat="book in books" class="book">
+            <figure>
+                <img ng-src="{{book.url}}" alt="{{book.title}}">
+            </figure>
+            <summary>
+                <h3>{{book.title}}</h3>
+                <span>בהוצאת:</span> {{book.publication}}<br/>
+
+            </summary>
+        </li>
+    </ul>
+</div>

@@ -29,3 +29,12 @@ a.navbar-brand::first-letter,  a.navbar-brand div::first-letter{
     margin: 0 auto;
     max-height: 400px;
 }
+ul.booksList {
+    list-style: none;
+}
+.book {
+    display:flex;
+    margin: .5em 0;
+    justify-content: flex-start;
+    align-items: center;
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "title": "סביב למדורה בסלון",
+    "id": 1,
+    "publication":"אוניברסיטת בן גוריון",
+    "url": "images/books/aroundTheCampfire_s.jpg"
+  },
+  {
+    "title": "שורו הביטו וראו",
+    "id": 2,
+    "publication":"עם עובד",
+    "url": "images/books/shuru_s.jpg"
+  },
+  {
+    "title": "לצייר בעברית",
+    "id": 3,
+    "publication":"עם עובד",
+    "url": "images/books/budko_s.jpg"
+  },
+  {
+    "title": "תולדות האומנות מבוא כללי",
+    "id": 4,
+    "publication":"האוניברסיטה הפתוחה",
+    "url": "images/books/artHistoryPrimer_s.jpg"
+  },
+  {
+    "title": "טבע דומם",
+    "id": 5,
+    "publication":"האוניברסיטה הפתוחה",
+    "url": "images/books/stillLife_s.jpg"
+  },
+  {
+    "title": "ציפורה ברנר",
+    "id": 6,
+    "publication":"עם עובד",
+    "url": "images/books/ziporaBrener_s.jpg"
+  },
+  {
+    "title": "אמנות הרנסנס באיטליה",
+    "id": 7,
+    "publication":"האוניברסיטה הפתוחה",
+    "url": "images/books/renaissance_s.jpg"
+  }
+]
