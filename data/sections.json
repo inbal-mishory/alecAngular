@@ -8,6 +8,7 @@
   {
     "section": "publications",
     "title": "פרסומים",
+    "url":"#/publications",
     "subSections": [
       {
         "subsection":"catalogs",
@@ -40,5 +41,11 @@
     "id": 3,
     "title": "כתבו עליי",
     "url": "#/writeup"
+  },
+  {
+    "section": "Contact",
+    "id": 3,
+    "title": "צור קשר",
+    "url": "#/contact"
   }
 ]

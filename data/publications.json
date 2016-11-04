@@ -1,0 +1,22 @@
+[
+  {
+    "name": "catalogs",
+    "title": "קטלוגים",
+    "url":"#/catalogs"
+  },
+  {
+    "name": "books",
+    "title": "ספרים",
+    "url":"#/books"
+  },
+  {
+    "name": "articles",
+    "title": "מאמרים",
+    "url":"#/articles"
+  },
+  {
+    "name": "reviews",
+    "title": "בקורות בעתון",
+    "url":"#/reviews"
+  }
+]

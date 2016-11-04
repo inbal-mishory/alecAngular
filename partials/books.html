@@ -1,15 +1,17 @@
-<h2>{{title}}</h2>
-<div ng-controller="BooksController">
-    <ul class="booksList">
-        <li ng-repeat="book in books" class="book">
-            <figure>
-                <img ng-src="{{book.url}}" alt="{{book.title}}">
-            </figure>
-            <summary>
-                <h3>{{book.title}}</h3>
-                <span>בהוצאת:</span> {{book.publication}}<br/>
+<section class="container">
+    <h2>{{title}}</h2>
+    <div ng-controller="BooksController" class="jumbotron">
+        <ul class="booksList">
+            <li ng-repeat="book in books" class="book">
+                <figure>
+                    <img ng-src="{{book.url}}" alt="{{book.title}}" class="img-fluid img-thumbnail">
+                </figure>
+                <summary>
+                    <h3>{{book.title}}</h3>
+                    <span>בהוצאת:</span> {{book.publication}}, {{book.publicationYear}}<br/>
 
-            </summary>
-        </li>
-    </ul>
-</div>
+                </summary>
+            </li>
+        </ul>
+    </div>
+</section>

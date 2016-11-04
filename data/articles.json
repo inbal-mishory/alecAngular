@@ -1,0 +1,34 @@
+[
+  {
+    "article": "honzo",
+    "id": 3,
+    "title":"הוֹנזוֹ והבּוּבַּטרוֹן, פריטים מאוספי משפחת בן שלום",
+    "gallery": "גלריית האמנות של האוניברסיטה הפתוחה",
+    "year":2015,
+    "urlHeb":"data/pdf/BubatronMASTERsmall.pdf",
+    "language":"עברית",
+    "image": "BubatronMASTERsmall.jpg"
+  },
+  {
+    "catalog":"lifshitz",
+    "id":4,
+    "title":"1980-1950 בדילוג על המופשט: פנינים מאוסף יוסי ודניאלה ליפשיץ",
+    "gallery": "גלריית האמנות של האוניברסיטה הפתוחה",
+    "year":2015,
+    "urlHeb":"data/pdf/lifshitz-heb.pdf",
+    "language":"עברית",
+    "image": "BubatronMASTERsmall.jpg"
+  },
+  {
+    "catalog": "Eli Shamir",
+    "id": 1,
+    "title":"אלי שמיר",
+    "url": "images/catalogs/shamir-coverHeb.jpg"
+  },
+  {
+    "catalog": "Shmuel Bonneh",
+    "id": 2,
+    "title":"שמואל בונה",
+    "url": "images/catalogs/homelandOfThePommagranetCover.jpg"
+  }
+]

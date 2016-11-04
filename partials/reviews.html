@@ -1,1 +1,19 @@
-<h2>{{title}}</h2>
+<section class="container">
+    <h2>{{title}}</h2>
+    <div ng-controller="ReviewsController" class="row flex-items-xs-right">
+        <div class="col-xs-6 jumbotron">
+            <ul class="reviewList">
+                <li ng-repeat="review in reviews" class="review">
+                    <i class="fa fa-newspaper-o"></i>
+                    <summary>
+                        <!--h3>{{review.newspaperTitle}}</h3-->
+                        <a href="{{review.url}}" target="_blank">{{review.publicationDate}}, {{review.articleTitle}}</a><br/>
+                        <small>
+                            {{review.artist}}, <span ng-if="review.curator">אוצר/ת: {{review.curator}}, </span> {{review.gallery}}
+                        </small>
+                    </summary>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>

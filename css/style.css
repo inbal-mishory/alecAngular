@@ -3,38 +3,128 @@ body {
     direction: rtl;
     font-size:18px;
     font-family: 'Alef', serif;
-    margin-top:14vh;
+    margin-top: 18vh;
+    overflow-y: scroll;
+}
+h2 {
+    font-size: 1.8em;
+}
+h3 {
+    font-size: 1.2em;
 }
 .navbar {
     border-radius: 0;
-    height: 12vh;
+    height: 20vh;
     position: fixed;
     top:0;
     width:100vw;
+    z-index: 5;
+}
+.navbar div.container {
+    display: flex;
+    height:100%;
+}
+.navbar-header {
+    width:100%;
+}
+ul.nav {
+    width: 60vw;
+    align-self: flex-end;
+}
+.nav>li {
+    width: 24%;
+}
+.navbar-inverse .navbar-nav>li>a {
+    font-size:1.5em;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    background: #1b6d85;
 }
 .navbar-brand {
-    font-size: 2.6em;
-    font-family: 'Open Sans Hebrew', serif;
+    display: flex;
 }
 a.navbar-brand div {
     display: inline-block;
 }
-a.navbar-brand::first-letter,  a.navbar-brand div::first-letter{
-    font-size:120%;
+
+.subsection a {
+    width:100%;
 }
 .container .well{
     line-height: 1.5em;
 }
+#imageCarousel {
+
+}
+.left.carousel-control {
+
+}
 .item img {
     margin: 0 auto;
-    max-height: 400px;
+    max-height: 500px;
+}
+ul.writeupList {
+    list-style: none;
+}
+ul.writeupList li {
+    margin-right: -15px;
+    margin-bottom: 1em;
+}
+.writeupList li:before{
+    font-family: 'FontAwesome';
+    content: '\f1c5';
+}
+.writeupList li a {
+    padding-right: 15px;
+}
+.booksListContainer {
+    background: #eee;
+    border-radius: .8em;
+    padding: 8px;
 }
 ul.booksList {
     list-style: none;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .book {
     display:flex;
+    width:49%;
     margin: .5em 0;
     justify-content: flex-start;
     align-items: center;
+}
+
+.reviewList {
+    list-style: none;
+    margin: 8px 0;
+    display: flex;
+    flex-direction: column;
+}
+.reviewList li {
+    /* display: flex; */
+    margin-bottom: 1em;
+    /* flex-direction: column; */
+}
+.reviewList li i {
+    margin:.4em;
+}
+
+@media (min-width: 650px) and (max-width: 750px) {
+    body {font-size:16px;margin-top:15vh}
+    h2 {padding-right:3.2em;font-size:1.3em}
+    .navbar {height:16vh}
+    .container {max-width:680px}
+    ul.nav li {width:80%;background:#222}
+    ul.nav {position:absolute; top:14.5vh;left:-40px;}
+}
+
+@media (max-width: 1000px) {
+    body {font-size:16px}
+    .navbar-inverse .navbar-nav>li>a {font-size:1em}
+    ul.nav {width:50vw}
+    .navbar-brand img {max-height:75px;}
 }

@@ -7,6 +7,9 @@ var app = angular.module('website', ['ngRoute'])
             .when('/about', {
                 templateUrl: 'partials/about.html',
                 controller: 'AboutController'})
+            .when('/publications', {
+                templateUrl: 'partials/publications.html',
+                controller: 'PublicationsController'})
             .when('/catalogs', {
                 templateUrl: 'partials/catalogs.html',
                 controller: 'CatalogsController'})
@@ -22,6 +25,9 @@ var app = angular.module('website', ['ngRoute'])
             .when('/writeup', {
                 templateUrl: 'partials/writeup.html',
                 controller: 'WriteupController'})
+            .when('/contact', {
+                templateUrl: 'partials/contact.html',
+                controller: 'ContactController'})
             .otherwise({redirectTo:'/home'});
     })
     .controller('MainController', function($scope, $route) {
@@ -32,6 +38,17 @@ var app = angular.module('website', ['ngRoute'])
     })
     .controller('AboutController', function($scope) {
         $scope.title = 'אודות';
+    })
+    .controller('PublicationsController', function($scope, $http) {
+        $scope.title = 'פרסומים';
+        $http.get('data/publications.json').success(function(data, status, headers, config) {
+            $scope.publications = data;
+
+        }).
+            error(function(data, status, headers, config) {
+                // log error
+                console.log($http);
+            });
     })
     .controller('CatalogsController', function($scope, $http) {
         $scope.title = 'פרסומים > קטלוגים';
@@ -59,9 +76,19 @@ var app = angular.module('website', ['ngRoute'])
     })
     .controller('ReviewsController', function($scope, $http) {
         $scope.title = 'פרסומים > בקורות בעתון';
+        $http.get('data/reviews.json').success(function(data, status, headers, config) {
+            $scope.reviews = data;
+
+        }).
+            error(function(data, status, headers, config) {
+                // log error
+            });
     })
     .controller('WriteupController', function($scope, $http) {
         $scope.title = 'כתבו עליי';
+    })
+    .controller('ContactController', function($scope) {
+        $scope.title = 'צור קשר';
     })
     .controller('SectionController', function($scope, $http) {
         $http.get('data/sections.json').

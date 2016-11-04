@@ -1,14 +1,41 @@
 [
   {
-    "catalog": "Eli Shamir",
+    "catalog": "honzo",
     "id": 1,
-    "title":"אלי שמיר",
-    "url": "images/catalogs/shamir-coverHeb.jpg"
+    "title":"הוֹנזוֹ והבּוּבַּטרוֹן, פריטים מאוספי משפחת בן שלום",
+    "gallery": "גלריית האמנות של האוניברסיטה הפתוחה",
+    "year":2015,
+    "urlHeb":"data/pdf/BubatronMASTERsmall.pdf",
+    "language":"עברית",
+    "image": "BubatronMASTERsmall.jpg"
   },
   {
-    "catalog": "Shmuel Bonneh",
-    "id": 2,
-    "title":"שמואל בונה",
-    "url": "images/catalogs/homelandOfThePommagranetCover.jpg"
+    "catalog":"lifshitz",
+    "id":2,
+    "title":"בדילוג על המופשט: פנינים מאוסף יוסי ודניאלה ליפשיץ 1980-1950",
+    "gallery": "גלריית האמנות של האוניברסיטה הפתוחה",
+    "year":2015,
+    "urlHeb":"data/pdf/lifshitz-heb.pdf",
+    "language":"עברית",
+    "image": "BubatronMASTERsmall.jpg"
+  },
+  {
+    "catalog": "Domut",
+    "id": 3,
+    "title":"מעבר לדומות דיוקנאות באוסף נועה ועוזי אגסי",
+    "gallery":"גלריית האמנות של האוניברסיטה הפתוחה",
+    "language":"עברית",
+    "year":2014,
+    "urlHeb":"data/pdf/beyondLikenessHEB.pdf",
+    "urlEng":"data/pdf/beyondLikenessENG.pdf"
+  },
+  {
+    "catalog": "Dubi Shiloah",
+    "id": 4,
+    "gallery":"גלריית האמנות של האוניברסיטה הפתוחה",
+    "title":"לירי לא בהכרח – אוסף דובי שילוח ",
+    "language":"אנגלית",
+    "year":2014,
+    "urlEng": "images/catalogs/dubiShiloahEng.pdf"
   }
 ]

@@ -1,0 +1,65 @@
+[
+  {
+    "newspaperTitle": "הארץ",
+    "id": 3,
+    "articleTitle":"ספקטאקל של טקסי אכילה ושתייה",
+    "publicationDate": "19/6/1994",
+    "artist":"יעקוב קאופמן",
+    "gallery":"מוזיאון תל-אביב לאמנות, תל-אביב",
+    "curator":"מאירה יגיד-חיימוביץ",
+    "url": "images/reviews/forUse.jpg"
+  },
+  {
+    "newspaperTitle": "הארץ",
+    "id": 1,
+    "articleTitle":"כפפות ועוד",
+    "publicationDate": "18/3/1994",
+    "artist":"מקס קלינגר",
+    "gallery":"המכון לאמנות, שיקגו",
+    "url": "images/reviews/maxKlinger.jpg"
+  },
+  {
+    "newspaperTitle": "הארץ",
+    "id": 2,
+    "articleTitle":"פגישה מחודשת עם מגריט",
+    "publicationDate": "15/8/1992",
+    "artist":"רנה מגריט",
+    "gallery":"גלריה הייוורד, לונדון",
+    "url": "images/reviews/magritte.jpg"
+  },
+  {
+    "newspaperTitle": "הארץ",
+    "id": 4,
+    "articleTitle":"אדואר מאנה כצייר פוליטי",
+    "publicationDate": "01/8/1992",
+    "artist":"אדואר מאנה",
+    "gallery":"הגלריה הלאומית, לונדון",
+    "url": "images/reviews/manet.jpg"
+  },
+  {
+    "newspaperTitle": "הארץ",
+    "id": 5,
+    "articleTitle":"",
+    "artist":"מקס קלינגר",
+    "gallery":"המכון לאמנות, שיקגו",
+    "url": "images/books/stillLife_s.jpg"
+  },
+  {
+    "newspaperTitle": "מעריב",
+    "id": 6,
+    "articleTitle":"",
+    "publicationDate": 1998,
+    "artist":"מקס קלינגר",
+    "gallery":"המכון לאמנות, שיקגו",
+    "url": "images/books/ziporaBrener_s.jpg"
+  },
+  {
+    "newspaperTitle": "הארץ",
+    "id": 7,
+    "articleTitle":"",
+    "publicationDate": "2012-1986",
+    "artist":"מקס קלינגר",
+    "gallery":"המכון לאמנות, שיקגו",
+    "url": "images/books/renaissance_s.jpg"
+  }
+]

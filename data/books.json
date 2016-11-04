@@ -1,44 +1,51 @@
 [
   {
-    "title": "סביב למדורה בסלון",
+    "title": "סביב למדורה בסלון, שדה האמנות היהודי בישראל 1949-1948",
     "id": 1,
-    "publication":"אוניברסיטת בן גוריון",
+    "publicationYear": 2013,
+    "publication":"מכון בן גוריון לחקר ישראל והציונות, קרית שדה בוקר, אוניברסיטת בן גוריון בנגב",
     "url": "images/books/aroundTheCampfire_s.jpg"
   },
   {
-    "title": "שורו הביטו וראו",
+    "title": "לצייר בעברית, יוסף בודקו מעצב את מהדורת היבול של חיים נחמן ביאליק",
     "id": 2,
-    "publication":"עם עובד",
-    "url": "images/books/shuru_s.jpg"
+    "publicationYear": 2006,
+    "publication":"תל אביב, עם עובד",
+    "url": "images/books/budko_s.jpg"
   },
   {
-    "title": "לצייר בעברית",
+    "title": "שורו הביטו וראו, איקונות וסמלים חזותיים ציוניים בתרבות הישראלית",
     "id": 3,
-    "publication":"עם עובד",
-    "url": "images/books/budko_s.jpg"
+    "publicationYear": 2000,
+    "publication":"תל אביב, עם עובד",
+    "url": "images/books/shuru_s.jpg"
   },
   {
     "title": "תולדות האומנות מבוא כללי",
     "id": 4,
-    "publication":"האוניברסיטה הפתוחה",
+    "publicationYear": 1999,
+    "publication":"רעננה, האניברסיטה הפתוחה",
     "url": "images/books/artHistoryPrimer_s.jpg"
   },
   {
-    "title": "טבע דומם",
+    "title": "טבע דומם: מייצוג של חפצים לחפצים של ממש",
     "id": 5,
+    "publicationYear": 2006,
     "publication":"האוניברסיטה הפתוחה",
     "url": "images/books/stillLife_s.jpg"
   },
   {
-    "title": "ציפורה ברנר",
+    "title": "ציפורה ברנר, חייה ואמנותה",
     "id": 6,
-    "publication":"עם עובד",
+    "publicationYear": 1998,
+    "publication":"הוצאה פרטית",
     "url": "images/books/ziporaBrener_s.jpg"
   },
   {
     "title": "אמנות הרנסנס באיטליה",
     "id": 7,
-    "publication":"האוניברסיטה הפתוחה",
+    "publicationYear": "2012-1986",
+    "publication":"(6 כרכים), האוניברסיטה הפתוחה",
     "url": "images/books/renaissance_s.jpg"
   }
 ]

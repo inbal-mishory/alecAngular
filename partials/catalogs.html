@@ -1,8 +1,11 @@
-<h2>{{title}}</h2>
-<div ng-controller="CatalogsController">
-    <ul>
-        <li ng-repeat="catalog in catalogs">
-            {{catalog.title}}
-        </li>
-    </ul>
-</div>
+<section class="container">
+    <h2>{{title}}</h2>
+    <div ng-controller="CatalogsController" class="jumbotron">
+        <ul class="writeupList">
+            <li ng-repeat="catalog in catalogs">
+                <strong>{{catalog.title}}</strong>, {{catalog.gallery}}, {{catalog.year}}<br ng-if="catalog.language">
+                <a href="{{catalog.urlHeb}}" target="_blank">{{catalog.language}}</a>
+            </li>
+        </ul>
+    </div>
+</section>
