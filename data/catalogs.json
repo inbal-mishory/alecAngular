@@ -1,7 +1,6 @@
 [
   {
-    "catalog": "honzo",
-    "id": 1,
+    "artist": "הונזו",
     "title":"הוֹנזוֹ והבּוּבַּטרוֹן, פריטים מאוספי משפחת בן שלום",
     "gallery": "גלריית האמנות של האוניברסיטה הפתוחה",
     "year":2015,
@@ -10,8 +9,7 @@
     "image": "BubatronMASTERsmall.jpg"
   },
   {
-    "catalog":"lifshitz",
-    "id":2,
+    "artist":"collection",
     "title":"בדילוג על המופשט: פנינים מאוסף יוסי ודניאלה ליפשיץ 1980-1950",
     "gallery": "גלריית האמנות של האוניברסיטה הפתוחה",
     "year":2015,
@@ -20,8 +18,7 @@
     "image": "BubatronMASTERsmall.jpg"
   },
   {
-    "catalog": "Domut",
-    "id": 3,
+    "artist": "collection",
     "title":"מעבר לדומות דיוקנאות באוסף נועה ועוזי אגסי",
     "gallery":"גלריית האמנות של האוניברסיטה הפתוחה",
     "language":"עברית",
@@ -30,12 +27,78 @@
     "urlEng":"data/pdf/beyondLikenessENG.pdf"
   },
   {
-    "catalog": "Dubi Shiloah",
-    "id": 4,
+    "artist": "collection",
     "gallery":"גלריית האמנות של האוניברסיטה הפתוחה",
     "title":"לירי לא בהכרח – אוסף דובי שילוח ",
     "language":"אנגלית",
     "year":2014,
     "urlEng": "images/catalogs/dubiShiloahEng.pdf"
+  },
+  {
+    "artist": "collection",
+    "gallery":"גלריית האמנות של האוניברסיטה הפתוחה",
+    "title":"חילון הקודש: גוף ישראלי גשמי: שלם – מקוטע – היברידי",
+    "language":"עברית",
+    "year":2013,
+    "urlEng": "images/catalogs/"
+  },
+  {
+    "artist": "סיגל צברי",
+    "gallery":"מוזיאון תל אביב לאמנות",
+    "title":"עושר מלנכולי: על הציור של סיגל צברי",
+    "language":"עברית",
+    "year":2013,
+    "urlEng": "images/catalogs/"
+  },
+  {
+    "catalog": "משה רוזנטליס",
+    "gallery":"בית התפוצות",
+    "title":"על ארבעה בדים: קורות עם ישראל של משה רוזנטליס",
+    "language":"עברית",
+    "year":2013,
+    "urlEng": "images/catalogs/"
+  },
+    {
+    "catalog": "collection",
+    "id": 4,
+    "gallery":"גלריית האמנות של האוניברסיטה הפתוחה",
+    "title":"חלון למציאות: מחוות ישראליות לרנסנס האיטלקי",
+    "language":"עברית",
+    "year":2012,
+    "urlEng": "images/catalogs/"
+  },
+    {
+    "catalog": "collection",
+    "id": 4,
+    "gallery":"גלריית האמנות של האוניברסיטה הפתוחה",
+    "title":"שם מלחמה משתוללת כאן שותלים ורוקדים, אלואיל, הניך, כוכבא הדפסים",
+    "language":"עברית",
+    "year":2012,
+    "urlEng": "images/catalogs/"
+  },
+    {
+    "catalog": "collection",
+    "gallery":"המשכן לאמנות, עין חרוד",
+    "title":"1948 – אמנות עברית ארצישראלית המוליכה אל המחר",
+    "language":"עברית",
+    "year":2008,
+    "urlEng": "images/catalogs/"
+  },
+    {
+    "catalog": "חיה גרץ",
+    "gallery":"גלרית האמנות של האוניברסיטה הפתוחה",
+    "title":"חיה גרץ רן: מסיטה",
+    "language":"",
+    "year":2007,
+    "urlEng": "images/catalogs/"
+  },
+    {
+    "catalog": "ורדה יתום",
+    "gallery":"גלרית האמנות של האוניברסיטה הפתוחה",
+    "title":"ורדה יתום, כח הכבידה",
+    "language":"עברית",
+    "year":2007,
+    "urlEng": "images/catalogs/"
   }
+    
 ]
